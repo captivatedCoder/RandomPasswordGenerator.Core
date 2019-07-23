@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="GetPassword.cs" t="Include" />
+      <e p="PasswordDictionaries.cs" t="Include" />
+      <e p="PasswordGenerator.csproj" t="IncludeRecursive" />
+      <e p="PasswordGenerator.sln" t="IncludeFlat" />
+      <e p="Program.cs" t="Include" />
+      <e p="SpecialCharacters.cs" t="Include" />
+      <e p="StrongPasswordGenerator.cs" t="Include" />
+      <e p="WeakPasswordGenerator.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="data" t="Include">
+        <e p="diceware.wordlist.txt" t="Include" />
+        <e p="dict" t="Include">
+          <e p="adj.exc" t="Include" />
+          <e p="adv.exc" t="Include" />
+          <e p="cntlist" t="Include" />
+          <e p="cntlist.rev" t="Include" />
+          <e p="cousin.exc" t="Include" />
+          <e p="data.adj" t="Include" />
+          <e p="data.adv" t="Include" />
+          <e p="data.noun" t="Include" />
+          <e p="data.verb" t="Include" />
+          <e p="dbfiles" t="Include">
+            <e p="adj.all" t="Include" />
+            <e p="adj.pert" t="Include" />
+            <e p="adj.ppl" t="Include" />
+            <e p="adv.all" t="Include" />
+            <e p="cntlist" t="Include" />
+            <e p="noun.Tops" t="Include" />
+            <e p="noun.act" t="Include" />
+            <e p="noun.animal" t="Include" />
+            <e p="noun.artifact" t="Include" />
+            <e p="noun.attribute" t="Include" />
+            <e p="noun.body" t="Include" />
+            <e p="noun.cognition" t="Include" />
+            <e p="noun.communication" t="Include" />
+            <e p="noun.event" t="Include" />
+            <e p="noun.feeling" t="Include" />
+            <e p="noun.food" t="Include" />
+            <e p="noun.group" t="Include" />
+            <e p="noun.location" t="Include" />
+            <e p="noun.motive" t="Include" />
+            <e p="noun.object" t="Include" />
+            <e p="noun.person" t="Include" />
+            <e p="noun.phenomenon" t="Include" />
+            <e p="noun.plant" t="Include" />
+            <e p="noun.possession" t="Include" />
+            <e p="noun.process" t="Include" />
+            <e p="noun.quantity" t="Include" />
+            <e p="noun.relation" t="Include" />
+            <e p="noun.shape" t="Include" />
+            <e p="noun.state" t="Include" />
+            <e p="noun.substance" t="Include" />
+            <e p="noun.time" t="Include" />
+            <e p="verb.Framestext" t="Include" />
+            <e p="verb.body" t="Include" />
+            <e p="verb.change" t="Include" />
+            <e p="verb.cognition" t="Include" />
+            <e p="verb.communication" t="Include" />
+            <e p="verb.competition" t="Include" />
+            <e p="verb.consumption" t="Include" />
+            <e p="verb.contact" t="Include" />
+            <e p="verb.creation" t="Include" />
+            <e p="verb.emotion" t="Include" />
+            <e p="verb.motion" t="Include" />
+            <e p="verb.perception" t="Include" />
+            <e p="verb.possession" t="Include" />
+            <e p="verb.social" t="Include" />
+            <e p="verb.stative" t="Include" />
+            <e p="verb.weather" t="Include" />
+          </e>
+          <e p="index.adj" t="Include" />
+          <e p="index.adv" t="Include" />
+          <e p="index.noun" t="Include" />
+          <e p="index.sense" t="Include" />
+          <e p="index.verb" t="Include" />
+          <e p="log.grind.3.1" t="Include" />
+          <e p="noun.exc" t="Include" />
+          <e p="sentidx.vrb" t="Include" />
+          <e p="sents.vrb" t="Include" />
+          <e p="verb.Framestext" t="Include" />
+          <e p="verb.exc" t="Include" />
+        </e>
+        <e p="passwordlist.csv" t="Include" />
+        <e p="specialcharacters.csv" t="Include" />
+        <e p="wordlist.txt" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="PasswordGenerator.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="utils" t="Include">
+        <e p="CustomExtensions.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_PasswordGenerator.430997640.00" t="ExcludeRecursive" />
+  </component>
+</project>
