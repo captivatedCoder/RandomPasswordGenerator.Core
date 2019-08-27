@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/jstevens/Documents/Projects/PasswordGenerator/PasswordGenerator.csproj",
+    "projectUniqueName": "/Users/jstevens/Documents/Projects/PasswordGenerator.Core/PasswordGenerator.csproj",
     "projectName": "PasswordGenerator",
-    "projectPath": "/Users/jstevens/Documents/Projects/PasswordGenerator/PasswordGenerator.csproj",
-    "outputPath": "/Users/jstevens/Documents/Projects/PasswordGenerator/obj/",
+    "projectPath": "/Users/jstevens/Documents/Projects/PasswordGenerator.Core/PasswordGenerator.csproj",
+    "outputPath": "/Users/jstevens/Documents/Projects/PasswordGenerator.Core/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

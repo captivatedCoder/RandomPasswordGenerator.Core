@@ -692,17 +692,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jstevens/Documents/Projects/PasswordGenerator/PasswordGenerator.csproj",
+      "projectUniqueName": "/Users/jstevens/Documents/Projects/PasswordGenerator.Core/PasswordGenerator.csproj",
       "projectName": "PasswordGenerator",
-      "projectPath": "/Users/jstevens/Documents/Projects/PasswordGenerator/PasswordGenerator.csproj",
+      "projectPath": "/Users/jstevens/Documents/Projects/PasswordGenerator.Core/PasswordGenerator.csproj",
       "packagesPath": "/Users/jstevens/.nuget/packages/",
-      "outputPath": "/Users/jstevens/Documents/Projects/PasswordGenerator/obj/",
+      "outputPath": "/Users/jstevens/Documents/Projects/PasswordGenerator.Core/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jstevens/.nuget/NuGet/NuGet.Config"
+        "/Users/jstevens/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

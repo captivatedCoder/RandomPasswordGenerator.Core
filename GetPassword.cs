@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Security;
+using PasswordGenerator.Generators;
 
 namespace PasswordGenerator
 {
@@ -20,14 +21,15 @@ namespace PasswordGenerator
 
             int.TryParse(keyValue, NumberStyles.Integer, CultureInfo.CurrentCulture, out var pwLength);
 
-            if (pwLength <= 0) return null;
+            if(pwLength <= 0) return null;
 
             var strongPassword = StrongPasswordGenerator.ReturnGoodPassword(pwLength);
 
-            if (strongPassword == null)
+            if(strongPassword == null)
                 Console.WriteLine("\nPassword length does not meet minimum requirement of 8 characters.");
 
             return strongPassword;
         }
     }
 }
+
