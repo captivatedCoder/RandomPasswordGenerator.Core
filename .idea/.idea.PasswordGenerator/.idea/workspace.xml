@@ -2,109 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704287b1-e836-469d-b4ae-20ede6acc3e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/PasswordDictionaries.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/SpecialCharacters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Diceware/DicewareFileData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Diceware/DicewareFileReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generators/CryptoRandom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generators/RandomCharacterPassword.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generators/StrongPasswordGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generators/WeakPassphraseGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generators/WeakPasswordGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GetPassphrase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/CsvReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PasswordGenerator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PasswordGenerator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PasswordGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PasswordGenerator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GetPassword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GetPassword.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasswordDictionaries.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpecialCharacters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Generators/SpecialCharacters.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrongPasswordGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeakPasswordGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/PasswordGenerator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/PasswordGenerator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/PasswordGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/PasswordGenerator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diceware.wordlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/adj.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/adv.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/cntlist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/cntlist.rev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/cousin.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/data.adj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/data.adv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/data.noun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/data.verb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/adj.all" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/adj.pert" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/adj.ppl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/adv.all" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/cntlist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.Tops" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.act" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.animal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.artifact" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.attribute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.body" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.cognition" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.communication" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.event" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.feeling" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.food" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.group" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.motive" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.object" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.person" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.phenomenon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.plant" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.possession" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.process" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.quantity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.relation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.shape" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.substance" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/noun.time" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.Framestext" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.body" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.change" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.cognition" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.communication" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.competition" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.consumption" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.contact" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.creation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.emotion" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.motion" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.perception" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.possession" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.social" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.stative" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/dbfiles/verb.weather" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/index.adj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/index.adv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/index.noun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/index.sense" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/index.verb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/log.grind.3.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/noun.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/sentidx.vrb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/sents.vrb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/verb.Framestext" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict/verb.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/passwordlist.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/specialcharacters.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/wordlist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/PasswordGenerator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/PasswordGenerator.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PasswordGenerator.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/PasswordGenerator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/PasswordGenerator.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/CustomExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/CustomExtensions.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,68 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetPassphrase.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="152" column="62" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
-              <folding>
-                <marker date="1566924305851" expanded="true" signature="6:195" ph="..." />
-                <marker date="1566924305851" expanded="true" signature="224:4562" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="250:4560" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="525:714" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="750:2747" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="919:2737" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="1332:1407" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="1432:1854" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="1506:1683" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="1712:1832" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="1978:2053" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="2078:2231" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="2357:2432" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="2457:2603" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="2800:3050" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="2934:3013" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="3113:3600" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="3313:3559" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="3391:3489" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="3673:3833" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="3937:4350" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="4184:4266" ph="{...}" />
-                <marker date="1566924305851" expanded="true" signature="4408:4554" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Diceware/DicewareFileReader.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-              <folding>
-                <marker date="1566936608168" expanded="true" signature="6:64" ph="..." />
-                <marker date="1566936608168" expanded="true" signature="102:806" ph="{...}" />
-                <marker date="1566936608168" expanded="true" signature="140:804" ph="{...}" />
-                <marker date="1566936608168" expanded="true" signature="323:376" ph="{...}" />
-                <marker date="1566936608168" expanded="true" signature="408:798" ph="{...}" />
-                <marker date="1566936608168" expanded="true" signature="523:788" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/31/57822b17/List`1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -230,12 +69,13 @@
         <option value="$PROJECT_DIR$/Generators/SpecialCharacters.cs" />
         <option value="$PROJECT_DIR$/GetPassphrase.cs" />
         <option value="$PROJECT_DIR$/Diceware/DicewareFileReader.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1969" />
-    <option name="y" value="91" />
+    <option name="x" value="801" />
+    <option name="y" value="30" />
     <option name="width" value="961" />
     <option name="height" value="961" />
   </component>
@@ -254,6 +94,11 @@
           <expand>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PasswordGenerator" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PasswordGenerator" type="24d0babc:SolutionExplorerModelNode" />
               <item name="PasswordGenerator" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -314,12 +159,20 @@
       <workItem from="1565793593944" duration="380000" />
       <workItem from="1566917970216" duration="724000" />
       <workItem from="1566918775524" duration="174000" />
-      <workItem from="1566921171304" duration="6316000" />
+      <workItem from="1566921171304" duration="7491000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated to add passphrase generation">
+      <created>1566937922319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566937922319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8626000" />
+    <option name="totallyTimeSpent" value="9801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,7 +184,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1969" y="91" width="961" height="961" extended-state="0" />
+    <frame x="801" y="30" width="961" height="961" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3155604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -398,6 +251,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated to add passphrase generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to add passphrase generation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,38 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="591" column="8" selection-start-line="591" selection-start-column="8" selection-end-line="591" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetPassphrase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="152" column="62" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
-          <folding>
-            <marker date="1566924305851" expanded="true" signature="6:195" ph="..." />
-            <marker date="1566924305851" expanded="true" signature="224:4562" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="250:4560" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="525:714" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="750:2747" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="919:2737" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="1332:1407" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="1432:1854" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="1506:1683" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="1712:1832" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="1978:2053" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="2078:2231" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="2357:2432" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="2457:2603" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="2800:3050" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="2934:3013" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="3113:3600" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="3313:3559" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="3391:3489" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="3673:3833" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="3937:4350" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="4184:4266" ph="{...}" />
-            <marker date="1566924305851" expanded="true" signature="4408:4554" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,6 +980,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4935">
+          <caret line="329" column="10" selection-start-line="329" selection-start-column="10" selection-end-line="329" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/31/57822b17/List`1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1173,6 +1005,38 @@
             <marker date="1566936608168" expanded="true" signature="323:376" ph="{...}" />
             <marker date="1566936608168" expanded="true" signature="408:798" ph="{...}" />
             <marker date="1566936608168" expanded="true" signature="523:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetPassphrase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="152" column="62" selection-start-line="152" selection-start-column="62" selection-end-line="152" selection-end-column="62" />
+          <folding>
+            <marker date="1566924305851" expanded="true" signature="6:195" ph="..." />
+            <marker date="1566924305851" expanded="true" signature="224:4562" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="250:4560" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="525:714" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="750:2747" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="919:2737" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="1332:1407" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="1432:1854" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="1506:1683" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="1712:1832" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="1978:2053" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="2078:2231" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="2357:2432" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="2457:2603" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="2800:3050" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="2934:3013" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="3113:3600" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="3313:3559" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="3391:3489" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="3673:3833" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="3937:4350" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="4184:4266" ph="{...}" />
+            <marker date="1566924305851" expanded="true" signature="4408:4554" ph="{...}" />
           </folding>
         </state>
       </provider>
